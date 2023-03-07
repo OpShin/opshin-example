@@ -77,19 +77,6 @@ The main code for the smart contract is located in `src`.
 You can build the contract with eopsin in a single command:
 
 ```bash
-(venv) $ # builds the spending example, a contract that controls who can spend funds
-(venv) $ eopsin-lang build src/contract_spend.py
-(venv) $ # builds the minting example, a contract that controls who can mint tokens
-(venv) $ eopsin-lang build src/contract_mint.py
+(venv) $ # builds the example contract
+(venv) $ eopsin build src/if_lovelace_paid_minting_policy.py "{\"constructor\": 0, \"fields\":[{\"bytes\": \"abf5de8ba711a8f9889a5b7865d8c1eefb72a06280c7a5a11bc4a571\"}, {\"int\":4000000}, {\"bytes\":\"4d656d62657273686970\"}]}"
 ```
-
-Now you will find a number of useful artifacts in the folders `contract_mint` and `contract_spend`,
-among them a `script.plutus` file used by the CLI and other tools for using the contract in transactions,
-the address of the contract on main- and testnets and the policy id of the token for which the contract controls minting.
-
-Examples on how to use smart contracts for minting and spending can be found for different tools:
-- Cardano CLI (Shell): [Spending](https://github.com/input-output-hk/cardano-node/blob/master/doc/reference/plutus/plutus-spending-script-example.md), [Minting](https://github.com/input-output-hk/cardano-node/blob/master/doc/reference/plutus/plutus-minting-script-example.md)
-- PyCardano (Python): [Spending](https://pycardano.readthedocs.io/en/latest/guides/plutus.html)
-- Lucid (TypeScript): [Spending](https://aiken-lang.org/example--vesting#off-chain-code)
-
-More example smart contracts can be found [in the example section of eopsin](https://github.com/ImperatorLang/eopsin/tree/master/examples).
