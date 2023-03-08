@@ -91,12 +91,12 @@ You can build the contract with eopsin in a single command:
 
 ```bash
 (venv) $ # builds the spending example, a contract that controls who can spend funds
-(venv) $ eopsin-lang build src/contract_spend.py
+(venv) $ eopsin build src/contract_spending.py
 (venv) $ # builds the minting example, a contract that controls who can mint tokens
-(venv) $ eopsin-lang build src/contract_mint.py
+(venv) $ eopsin build src/contract_minting.py
 ```
 
-Now you will find a number of useful artifacts in the folders `contract_mint` and `contract_spend`,
+Now you will find a number of useful artifacts in the folders `contract_minting` and `contract_spending`,
 among them a `script.plutus` file used by the CLI and other tools for using the contract in transactions,
 the address of the contract on main- and testnets and the policy id of the token for which the contract controls minting.
 

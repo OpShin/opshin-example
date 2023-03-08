@@ -1,4 +1,4 @@
 # as a best practice, pin the language version you used to compile eopsin
-eopsin-lang=0.9.9
+eopsin-lang==0.9.9
 parameterized
 hypothesis
