@@ -70,8 +70,21 @@ If you want to use other tools as well, you can add them there!
 (venv) $ pip install -r requirements.txt
 ```
 
+## Testing
 
-## Running
+Run the tests for this contract like this:
+```bash
+(venv) $ python3 -m unittest
+```
+
+This example includes a simple test suite with a simple example for each how to write
+normal tests, parameterized tests and property based tests.
+You can check out the packages [parameterized](https://github.com/wolever/parameterized) and [hypothesis](https://hypothesis.readthedocs.io/en/latest/)
+for more information on how to use them.
+You can also use any other testing framework for python.
+
+
+## Deploying
 
 The main code for the smart contract is located in `src`.
 You can build the contract with eopsin in a single command:
