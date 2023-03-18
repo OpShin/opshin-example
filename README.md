@@ -1,6 +1,6 @@
-# Eopsin example contract
+# Opshin example contract
 
-This is a sample repository to get you started with compiling your own smart contract with eopsin in less than 10 minutes (even less if you have python3.8 already installed!).
+This is a sample repository to get you started with compiling your own smart contract with opshin in less than 10 minutes (even less if you have python3.8 already installed!).
 It requires you to know how to use the terminal on your computer ([Ubuntu and other Linux distributions](https://www.freecodecamp.org/news/command-line-for-beginners/), [Windows](https://www.makeuseof.com/tag/a-beginners-guide-to-the-windows-command-line/), [Mac](https://support.apple.com/guide/terminal/execute-commands-and-run-tools-apdb66b5242-0d18-49fc-9c47-a2498b7c91d5/mac)).
 You should also have `git` installed.
 
@@ -9,8 +9,8 @@ You should also have `git` installed.
 #### TL;DR
 
 ```bash
-$ git clone https://github.com/ImperatorLang/eopsin-example.git
-$ cd eopsin-example
+$ git clone https://github.com/ImperatorLang/opshin-example.git
+$ cd opshin-example
 $ python3.8 -m venv venv
 $ pip install -r requirements
 ```
@@ -30,7 +30,7 @@ Once you have installed python, clone this repository.
 Open your terminal and navigate to a folder, then run
 
 ```
-$ git clone https://github.com/ImperatorLang/eopsin-example.git
+$ git clone https://github.com/ImperatorLang/opshin-example.git
 ```
 
 This copies this repository on your local computer.
@@ -39,7 +39,7 @@ If you want to modify the code and keep your modifications, [fork the repository
 Then navigate into the the repository using the CLI, like this
 
 ```
-$ cd eopsin-example
+$ cd opshin-example
 ```
 
 #### Setup the environment
@@ -58,12 +58,12 @@ Make sure to run the `source` command everytime you enter this repository to wor
 or configure your IDE to use the created virtual environment.
 When operations require you to be inside the environment, commands are prefixed with `(venv)`.
 
-#### Install eopsin
+#### Install opshin
 
 We're almost done.
-As the final step, we install the compiler, `eopsin-lang`.
+As the final step, we install the compiler, `opshin-lang`.
 We can simply use `pip` for this.
-We install all projects listed in `requirements.txt`, which includes `eopsin-lang`.
+We install all projects listed in `requirements.txt`, which includes `opshin-lang`.
 If you want to use other tools as well, you can add them there!
 
 ```bash
@@ -87,13 +87,13 @@ You can also use any other testing framework for python.
 ## Deploying
 
 The main code for the smart contract is located in `src`.
-You can build the contract with eopsin in a single command:
+You can build the contract with opshin in a single command:
 
 ```bash
 (venv) $ # builds the spending example, a contract that controls who can spend funds
-(venv) $ eopsin build src/contract_spending.py
+(venv) $ opshin build src/contract_spending.py
 (venv) $ # builds the minting example, a contract that controls who can mint tokens
-(venv) $ eopsin build src/contract_minting.py
+(venv) $ opshin build src/contract_minting.py
 ```
 
 Now you will find a number of useful artifacts in the folders `contract_minting` and `contract_spending`,
@@ -105,4 +105,4 @@ Examples on how to use smart contracts for minting and spending can be found for
 - PyCardano (Python): [Spending](https://pycardano.readthedocs.io/en/latest/guides/plutus.html)
 - Lucid (TypeScript): [Spending](https://aiken-lang.org/example--vesting#off-chain-code)
 
-More example smart contracts can be found [in the example section of eopsin](https://github.com/ImperatorLang/eopsin/tree/master/examples).
+More example smart contracts can be found [in the example section of opshin](https://github.com/ImperatorLang/opshin/tree/master/examples).

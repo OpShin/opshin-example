@@ -1,4 +1,4 @@
-from eopsin.prelude import *
+from opshin.prelude import *
 
 def fib(n: int) -> int:
     a, b = 0, 1
