@@ -21,8 +21,9 @@ Otherwise, skip to [Running](#Running)
 #### Install Python
 
 Make sure you have `python3.8` installed.
-If you don't have it installed, follow [this tutorial](https://www.geeksforgeeks.org/download-and-install-python-3-latest-version/) or just google for it.
-Python is the second most used language on GitHub, there are tons of tutorials on how to use it.
+If you don't have it installed you can download the installer for your OS [here](https://www.python.org/downloads/release/python-3810/).
+If you want to learn more about python, don't worry.
+Python is the second most used language on GitHub and there are tons of tutorials on how to use it.
 
 #### Clone the repository
 
