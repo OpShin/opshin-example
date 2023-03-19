@@ -106,4 +106,4 @@ Examples on how to use smart contracts for minting and spending can be found for
 - PyCardano (Python): [Spending](https://pycardano.readthedocs.io/en/latest/guides/plutus.html)
 - Lucid (TypeScript): [Spending](https://aiken-lang.org/example--vesting#off-chain-code)
 
-More example smart contracts can be found [in the example section of opshin](https://github.com/ImperatorLang/opshin/tree/master/examples).
+More example smart contracts can be found [in the example section of opshin](https://github.com/OpShin/opshin/tree/master/examples).
