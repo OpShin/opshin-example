@@ -1,5 +1,8 @@
 # Opshin example contract
 
+> Note: Consider checking out the [opshin-starter-kit](https://github.com/OpShin/opshin-starter-kit) instead,
+as it also provides off-chain code and runs in the demeter.run Browser environment
+
 This is a sample repository to get you started with compiling your own smart contract with opshin in less than 10 minutes (even less if you have python3.8 already installed!).
 It requires you to know how to use the terminal on your computer ([Ubuntu and other Linux distributions](https://www.freecodecamp.org/news/command-line-for-beginners/), [Windows](https://www.makeuseof.com/tag/a-beginners-guide-to-the-windows-command-line/), [Mac](https://support.apple.com/guide/terminal/execute-commands-and-run-tools-apdb66b5242-0d18-49fc-9c47-a2498b7c91d5/mac)).
 You should also have `git` installed.
@@ -9,7 +12,7 @@ You should also have `git` installed.
 #### TL;DR
 
 ```bash
-$ git clone https://github.com/ImperatorLang/opshin-example.git
+$ git clone https://github.com/opshin/opshin-example.git
 $ cd opshin-example
 $ python3.8 -m venv venv
 $ pip install -r requirements
@@ -31,7 +34,7 @@ Once you have installed python, clone this repository.
 Open your terminal and navigate to a folder, then run
 
 ```
-$ git clone https://github.com/ImperatorLang/opshin-example.git
+$ git clone https://github.com/opshin/opshin-example.git
 ```
 
 This copies this repository on your local computer.
